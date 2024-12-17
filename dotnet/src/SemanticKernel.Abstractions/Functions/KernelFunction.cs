@@ -515,7 +515,7 @@ public abstract class KernelFunction
     }
 
     /// <summary>An <see cref="AIFunction"/> wrapper around a <see cref="KernelFunction"/>.</summary>
-    private sealed class KernelAIFunction : AIFunction
+    private class KernelAIFunction : AIFunction
     {
         private readonly KernelFunction _kernelFunction;
         private readonly Kernel? _kernel;

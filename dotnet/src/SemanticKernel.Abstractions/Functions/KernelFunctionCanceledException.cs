@@ -11,7 +11,7 @@ namespace Microsoft.SemanticKernel;
 /// that's thrown from a <see cref="KernelFunction"/> invocation when a <see cref="Kernel"/>
 /// function filter (e.g. <see cref="Kernel.FunctionInvocationFilters"/>) requests cancellation.
 /// </summary>
-public sealed class KernelFunctionCanceledException : OperationCanceledException
+public class KernelFunctionCanceledException : OperationCanceledException
 {
     /// <summary>Initializes the exception instance.</summary>
     /// <param name="kernel">The <see cref="Kernel"/> passed to the invocation of <paramref name="function"/>.</param>

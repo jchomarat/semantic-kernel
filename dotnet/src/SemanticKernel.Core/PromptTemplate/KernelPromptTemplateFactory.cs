@@ -12,7 +12,7 @@ namespace Microsoft.SemanticKernel;
 /// <remarks>
 /// This is used as the default <see cref="IPromptTemplateFactory"/> when no other factory is provided.
 /// </remarks>
-public sealed class KernelPromptTemplateFactory : IPromptTemplateFactory
+public class KernelPromptTemplateFactory : IPromptTemplateFactory
 {
     private readonly ILoggerFactory _loggerFactory;
 

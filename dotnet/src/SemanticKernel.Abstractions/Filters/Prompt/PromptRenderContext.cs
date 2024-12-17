@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Class with data related to prompt rendering.
 /// </summary>
-public sealed class PromptRenderContext
+public class PromptRenderContext
 {
     private string? _renderedPrompt;
 

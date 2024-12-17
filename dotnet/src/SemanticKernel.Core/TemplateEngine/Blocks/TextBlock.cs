@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Microsoft.SemanticKernel.TemplateEngine;
 
-internal sealed class TextBlock : Block, ITextRendering
+internal class TextBlock : Block, ITextRendering
 {
     internal override BlockTypes Type => BlockTypes.Text;
 

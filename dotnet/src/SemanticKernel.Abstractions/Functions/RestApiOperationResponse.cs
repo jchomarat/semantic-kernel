@@ -9,7 +9,7 @@ namespace Microsoft.SemanticKernel;
 /// The REST API operation response.
 /// </summary>
 [TypeConverterAttribute(typeof(RestApiOperationResponseConverter))]
-public sealed class RestApiOperationResponse
+public class RestApiOperationResponse
 {
     /// <summary>
     /// Gets the content of the response.

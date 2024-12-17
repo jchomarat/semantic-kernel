@@ -140,7 +140,7 @@ public sealed class KernelPluginCollection : ICollection<KernelPlugin>, IReadOnl
     bool ICollection<KernelPlugin>.IsReadOnly => false;
 
     /// <summary>Debugger type proxy for nicer interaction with the collection in a debugger.</summary>
-    private sealed class TypeProxy
+    private class TypeProxy
     {
         private readonly KernelPluginCollection _collection;
 

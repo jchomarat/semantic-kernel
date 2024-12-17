@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// The context is to be provided by the choice behavior consumer – AI connector in order to obtain the choice behavior configuration.
 /// </summary>
-public sealed class FunctionChoiceBehaviorConfigurationContext
+public class FunctionChoiceBehaviorConfigurationContext
 {
     /// <summary>
     /// Creates a new instance of <see cref="FunctionChoiceBehaviorConfigurationContext"/>.

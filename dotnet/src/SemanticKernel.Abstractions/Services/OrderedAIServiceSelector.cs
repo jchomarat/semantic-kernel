@@ -11,7 +11,7 @@ namespace Microsoft.SemanticKernel.Services;
 /// Implementation of <see cref="IAIServiceSelector"/> that selects the AI service based on the order of the execution settings.
 /// Uses the service id or model id to select the preferred service provider and then returns the service and associated execution settings.
 /// </summary>
-internal sealed class OrderedAIServiceSelector : IAIServiceSelector
+internal class OrderedAIServiceSelector : IAIServiceSelector
 {
     public static OrderedAIServiceSelector Instance { get; } = new();
 

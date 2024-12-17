@@ -11,7 +11,7 @@ namespace Microsoft.SemanticKernel.Data;
 /// <typeparam name="TKey">The data type of the record key of the collection that this options will be used with.</typeparam>
 /// <typeparam name="TRecord">The data model to use for adding, updating and retrieving data on the collection that this options will be used with.</typeparam>
 [Obsolete("This has been replaced by InMemoryVectorStoreRecordCollectionOptions in the Microsoft.SemanticKernel.Connectors.InMemory nuget package.")]
-public sealed class VolatileVectorStoreRecordCollectionOptions<TKey, TRecord>
+public class VolatileVectorStoreRecordCollectionOptions<TKey, TRecord>
     where TKey : notnull
 {
     /// <summary>

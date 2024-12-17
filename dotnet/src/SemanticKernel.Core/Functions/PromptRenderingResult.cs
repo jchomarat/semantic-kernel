@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Contains result after prompt rendering process.
 /// </summary>
-internal sealed class PromptRenderingResult
+internal class PromptRenderingResult
 {
     public IAIService AIService { get; set; }
 

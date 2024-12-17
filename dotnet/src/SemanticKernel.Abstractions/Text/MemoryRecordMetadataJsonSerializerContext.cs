@@ -6,6 +6,6 @@ using Microsoft.SemanticKernel.Memory;
 namespace Microsoft.SemanticKernel.Text;
 
 [JsonSerializable(typeof(MemoryRecordMetadata))]
-internal sealed partial class MemoryRecordMetadataJsonSerializerContext : JsonSerializerContext
+internal partial class MemoryRecordMetadataJsonSerializerContext : JsonSerializerContext
 {
 }

@@ -12,7 +12,7 @@ namespace Microsoft.SemanticKernel.TemplateEngine;
 #pragma warning disable CA1031 // IsCriticalException is an internal utility and should not be used by extensions
 
 // ReSharper disable TemplateIsNotCompileTimeConstantProblem
-internal sealed class CodeBlock : Block, ICodeRendering
+internal class CodeBlock : Block, ICodeRendering
 {
     internal override BlockTypes Type => BlockTypes.Code;
 

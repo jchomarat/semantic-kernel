@@ -21,7 +21,7 @@ public static class TextChunker
     /// Represents a list of strings with token count.
     /// Used to reduce the number of calls to the tokenizer.
     /// </summary>
-    private sealed class StringListWithTokenCount(TextChunker.TokenCounter? tokenCounter)
+    private class StringListWithTokenCount(TextChunker.TokenCounter? tokenCounter)
     {
         private readonly TokenCounter? _tokenCounter = tokenCounter;
 

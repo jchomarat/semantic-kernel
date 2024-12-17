@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents function choice behavior configuration produced by a <see cref="FunctionChoiceBehavior" />.
 /// </summary>
-public sealed class FunctionChoiceBehaviorConfiguration
+public class FunctionChoiceBehaviorConfiguration
 {
     /// <summary>
     /// Creates a new instance of the <see cref="FunctionChoiceBehaviorConfiguration"/> class.

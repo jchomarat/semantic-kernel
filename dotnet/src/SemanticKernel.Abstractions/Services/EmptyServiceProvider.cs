@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Microsoft.SemanticKernel;
 
 /// <summary>Empty <see cref="IServiceProvider"/> implementation that returns null from all <see cref="IServiceProvider.GetService"/> calls.</summary>
-internal sealed class EmptyServiceProvider : IServiceProvider, IKeyedServiceProvider
+internal class EmptyServiceProvider : IServiceProvider, IKeyedServiceProvider
 {
     private static readonly ConcurrentDictionary<Type, object?> s_results = new();
 

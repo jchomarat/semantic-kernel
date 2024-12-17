@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents the result of a function call.
 /// </summary>
-public sealed class FunctionResultContent : KernelContent
+public class FunctionResultContent : KernelContent
 {
     /// <summary>
     /// The function call ID.

@@ -9,6 +9,6 @@ namespace Microsoft.SemanticKernel.Data;
 /// At the moment this is empty but it is being included for future use.
 /// </summary>
 [Experimental("SKEXP0001")]
-public sealed class VectorStoreTextSearchOptions
+public class VectorStoreTextSearchOptions
 {
 }

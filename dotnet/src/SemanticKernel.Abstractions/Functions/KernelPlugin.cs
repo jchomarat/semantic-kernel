@@ -111,7 +111,7 @@ public abstract class KernelPlugin : IEnumerable<KernelFunction>
     IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
 
     /// <summary>Debugger type proxy for the kernel plugin.</summary>
-    private sealed class TypeProxy(KernelPlugin plugin)
+    private class TypeProxy(KernelPlugin plugin)
     {
         private readonly KernelPlugin _plugin = plugin;
 

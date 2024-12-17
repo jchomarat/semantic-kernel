@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents an output variable returned from a prompt function.
 /// </summary>
-public sealed class OutputVariable
+public class OutputVariable
 {
     /// <summary>The description of the variable.</summary>
     private string _description = string.Empty;

@@ -15,7 +15,7 @@ namespace Microsoft.SemanticKernel.Data;
 /// </remarks>
 /// <param name="value">The text search result value.</param>
 [Experimental("SKEXP0001")]
-public sealed class TextSearchResult(string value)
+public class TextSearchResult(string value)
 {
     /// <summary>
     /// The text search result name.

@@ -16,7 +16,7 @@ namespace Microsoft.SemanticKernel.Memory;
 /// in a semantic memory store.
 /// </summary>
 [Experimental("SKEXP0001")]
-public sealed class SemanticTextMemory : ISemanticTextMemory
+public class SemanticTextMemory : ISemanticTextMemory
 {
     private readonly ITextEmbeddingGenerationService _embeddingGenerator;
     private readonly IMemoryStore _storage;

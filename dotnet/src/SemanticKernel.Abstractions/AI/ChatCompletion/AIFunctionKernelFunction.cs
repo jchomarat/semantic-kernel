@@ -18,7 +18,7 @@ namespace Microsoft.SemanticKernel.ChatCompletion;
 /// implementation shouldn't be invoking these functions at all. As such, the <see cref="InvokeCoreAsync"/> and
 /// <see cref="InvokeStreamingCoreAsync"/> methods both unconditionally throw, even though they could be implemented.
 /// </remarks>
-internal sealed class AIFunctionKernelFunction : KernelFunction
+internal class AIFunctionKernelFunction : KernelFunction
 {
     private readonly AIFunction _aiFunction;
 

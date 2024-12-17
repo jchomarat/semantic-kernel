@@ -10,7 +10,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Provides read-only metadata for a <see cref="KernelFunction"/>.
 /// </summary>
-public sealed class KernelFunctionMetadata
+public class KernelFunctionMetadata
 {
     /// <summary>The name of the function.</summary>
     private string _name = string.Empty;

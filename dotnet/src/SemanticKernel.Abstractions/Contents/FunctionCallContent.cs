@@ -12,7 +12,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents a function call requested by AI model.
 /// </summary>
-public sealed class FunctionCallContent : KernelContent
+public class FunctionCallContent : KernelContent
 {
     /// <summary>
     /// The function call ID.

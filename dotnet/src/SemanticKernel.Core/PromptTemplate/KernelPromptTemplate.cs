@@ -24,7 +24,7 @@ namespace Microsoft.SemanticKernel;
 ///     - Functions do not receive the context variables, unless specified using a special variable
 ///     - Functions can be invoked in order and in parallel so the context variables must be immutable when invoked within the template
 /// </summary>
-internal sealed class KernelPromptTemplate : IPromptTemplate
+internal class KernelPromptTemplate : IPromptTemplate
 {
     /// <summary>
     /// Constructor for <see cref="KernelPromptTemplate"/>.

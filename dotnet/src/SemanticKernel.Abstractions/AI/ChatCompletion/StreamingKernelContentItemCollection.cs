@@ -11,7 +11,7 @@ namespace Microsoft.SemanticKernel.ChatCompletion;
 /// <summary>
 /// Contains collection of streaming kernel content items of type <see cref="StreamingKernelContent"/>.
 /// </summary>
-public sealed class StreamingKernelContentItemCollection : IList<StreamingKernelContent>, IReadOnlyList<StreamingKernelContent>
+public class StreamingKernelContentItemCollection : IList<StreamingKernelContent>, IReadOnlyList<StreamingKernelContent>
 {
     /// <summary>
     /// Initializes a new instance of the <see cref="ChatMessageContentItemCollection"/> class.

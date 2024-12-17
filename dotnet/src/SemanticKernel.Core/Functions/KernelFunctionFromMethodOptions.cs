@@ -12,7 +12,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Optional options that can be provided when creating a <see cref="KernelFunction"/> from a method.
 /// </summary>
-public sealed class KernelFunctionFromMethodOptions
+public class KernelFunctionFromMethodOptions
 {
     /// <summary>
     /// The name to use for the function. If null, it will default to one derived from the method represented by the passed <see cref="Delegate"/> or <see cref="MethodInfo"/>.

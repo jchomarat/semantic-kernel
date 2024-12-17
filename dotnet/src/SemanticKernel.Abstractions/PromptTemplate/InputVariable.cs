@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents an input variable for prompt functions.
 /// </summary>
-public sealed class InputVariable
+public class InputVariable
 {
     /// <summary>The name of the variable.</summary>
     private string _name = string.Empty;

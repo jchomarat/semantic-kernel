@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Implementation of <see cref="IPromptTemplate"/> that just returns the prompt template.
 /// </summary>
-internal sealed class EchoPromptTemplate : IPromptTemplate
+internal class EchoPromptTemplate : IPromptTemplate
 {
     private readonly PromptTemplateConfig _promptConfig;
     private readonly Task<string> _renderResult;

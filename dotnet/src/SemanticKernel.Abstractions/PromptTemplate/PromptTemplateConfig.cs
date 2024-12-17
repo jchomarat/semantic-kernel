@@ -23,7 +23,7 @@ namespace Microsoft.SemanticKernel;
 /// factory that understands the <see cref="PromptTemplateConfig.SemanticKernelTemplateFormat"/> format, but with the
 /// ability to supply other factories for interpreting other formats.
 /// </remarks>
-public sealed class PromptTemplateConfig
+public class PromptTemplateConfig
 {
     /// <summary>The format of the prompt template.</summary>
     private string? _templateFormat;

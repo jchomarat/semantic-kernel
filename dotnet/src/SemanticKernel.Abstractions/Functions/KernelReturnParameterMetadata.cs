@@ -10,7 +10,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Provides read-only metadata for a <see cref="KernelFunction"/>'s return parameter.
 /// </summary>
-public sealed class KernelReturnParameterMetadata
+public class KernelReturnParameterMetadata
 {
     internal static KernelReturnParameterMetadata Empty
     {

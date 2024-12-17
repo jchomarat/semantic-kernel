@@ -9,7 +9,7 @@ namespace Microsoft.SemanticKernel;
 
 /// <summary>Represents JSON Schema for describing types used in <see cref="KernelFunction"/>s.</summary>
 [JsonConverter(typeof(KernelJsonSchema.JsonConverter))]
-public sealed class KernelJsonSchema
+public class KernelJsonSchema
 {
     /// <summary>The schema stored as a string.</summary>
     private string? _schemaAsString;
@@ -59,7 +59,7 @@ public sealed class KernelJsonSchema
     public override string ToString() => this._schemaAsString ??= JsonSerializer.Serialize(this.RootElement, JsonElementJsonSerializerContext.MaxDepth_128.JsonElement);
 
     /// <summary>Converter for reading/writing the schema.</summary>
-    public sealed class JsonConverter : JsonConverter<KernelJsonSchema>
+    public class JsonConverter : JsonConverter<KernelJsonSchema>
     {
         /// <inheritdoc/>
         public override KernelJsonSchema? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options) =>

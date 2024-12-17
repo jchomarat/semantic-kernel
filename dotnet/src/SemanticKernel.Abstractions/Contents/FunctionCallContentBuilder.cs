@@ -13,7 +13,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// A builder class for creating <see cref="FunctionCallContent"/> objects from incremental function call updates represented by <see cref="StreamingFunctionCallUpdateContent"/>.
 /// </summary>
-public sealed class FunctionCallContentBuilder
+public class FunctionCallContentBuilder
 {
     private Dictionary<int, string>? _functionCallIdsByIndex = null;
     private Dictionary<int, string>? _functionNamesByIndex = null;

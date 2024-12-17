@@ -24,7 +24,7 @@ namespace Microsoft.SemanticKernel;
 [JsonSerializable(typeof(double))]
 [JsonSerializable(typeof(bool))]
 [JsonSerializable(typeof(IList<string>))]
-internal sealed partial class AbstractionsJsonContext : JsonSerializerContext
+internal partial class AbstractionsJsonContext : JsonSerializerContext
 {
     /// <summary>Gets the <see cref="JsonSerializerOptions"/> singleton used as the default in JSON serialization operations.</summary>
     private static readonly JsonSerializerOptions s_defaultToolJsonOptions = CreateDefaultToolJsonOptions();

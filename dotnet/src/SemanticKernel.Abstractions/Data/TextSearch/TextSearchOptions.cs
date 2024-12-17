@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel.Data;
 /// Options which can be applied when using <see cref="ITextSearch"/>.
 /// </summary>
 [Experimental("SKEXP0001")]
-public sealed class TextSearchOptions
+public class TextSearchOptions
 {
     /// <summary>
     /// Default number of search results to return.

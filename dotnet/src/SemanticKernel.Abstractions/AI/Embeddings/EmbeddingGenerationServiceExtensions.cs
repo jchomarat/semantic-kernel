@@ -91,7 +91,7 @@ public static class EmbeddingGenerationExtensions
     }
 
     /// <summary>Provides an implementation of <see cref="IEmbeddingGenerator{TInput, TEmbedding}"/> around an <see cref="IEmbeddingGenerationService{TValue, TEmbedding}"/>.</summary>
-    private sealed class EmbeddingGenerationServiceEmbeddingGenerator<TValue, TEmbedding> : IEmbeddingGenerator<TValue, Embedding<TEmbedding>>
+    private class EmbeddingGenerationServiceEmbeddingGenerator<TValue, TEmbedding> : IEmbeddingGenerator<TValue, Embedding<TEmbedding>>
         where TEmbedding : unmanaged
     {
         /// <summary>The wrapped <see cref="IEmbeddingGenerationService{TValue, TEmbedding}"/></summary>
@@ -179,7 +179,7 @@ public static class EmbeddingGenerationExtensions
         }
     }
 
-    private sealed class EmbeddingGeneratorTextEmbeddingGenerationService : EmbeddingGeneratorEmbeddingGenerationService<string, float>, ITextEmbeddingGenerationService
+    private class EmbeddingGeneratorTextEmbeddingGenerationService : EmbeddingGeneratorEmbeddingGenerationService<string, float>, ITextEmbeddingGenerationService
     {
         public EmbeddingGeneratorTextEmbeddingGenerationService(IEmbeddingGenerator<string, Embedding<float>> generator, IServiceProvider? serviceProvider) : base(generator, serviceProvider)
         {

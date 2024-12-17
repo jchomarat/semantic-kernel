@@ -14,7 +14,7 @@ namespace Microsoft.SemanticKernel.Data;
 /// <param name="totalCount">The total count of results found by the search operation, or null if the count was not requested.</param>
 /// <param name="metadata">Metadata associated with the search results.</param>
 [Experimental("SKEXP0001")]
-public sealed class KernelSearchResults<T>(IAsyncEnumerable<T> results, long? totalCount = null, IReadOnlyDictionary<string, object?>? metadata = null)
+public class KernelSearchResults<T>(IAsyncEnumerable<T> results, long? totalCount = null, IReadOnlyDictionary<string, object?>? metadata = null)
 {
     /// <summary>
     /// The total count of results found by the search operation, or null

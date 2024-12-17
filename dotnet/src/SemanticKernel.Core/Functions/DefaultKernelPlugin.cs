@@ -9,7 +9,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Provides an <see cref="KernelPlugin"/> implementation around a collection of functions.
 /// </summary>
-internal sealed class DefaultKernelPlugin : KernelPlugin
+internal class DefaultKernelPlugin : KernelPlugin
 {
     /// <summary>The collection of functions associated with this plugin.</summary>
     private readonly Dictionary<string, KernelFunction> _functions;

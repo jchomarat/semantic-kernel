@@ -9,7 +9,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents the result of a <see cref="KernelFunction"/> invocation.
 /// </summary>
-public sealed class FunctionResult
+public class FunctionResult
 {
     /// <summary>
     /// Initializes a new instance of the <see cref="FunctionResult"/> class.

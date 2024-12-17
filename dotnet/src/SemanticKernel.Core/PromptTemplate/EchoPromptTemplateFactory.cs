@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Provides an implementation of <see cref="IPromptTemplateFactory"/> which creates no operation instances of <see cref="IPromptTemplate"/>.
 /// </summary>
-public sealed class EchoPromptTemplateFactory : IPromptTemplateFactory
+public class EchoPromptTemplateFactory : IPromptTemplateFactory
 {
     /// <summary>
     /// Singleton instance of <see cref="EchoPromptTemplateFactory"/>.

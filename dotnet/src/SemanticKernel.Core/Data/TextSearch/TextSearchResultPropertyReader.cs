@@ -9,7 +9,7 @@ namespace Microsoft.SemanticKernel.Data;
 /// <summary>
 /// Contains helpers for reading <see cref="TextSearchResult" /> attributes.
 /// </summary>
-internal sealed class TextSearchResultPropertyReader
+internal class TextSearchResultPropertyReader
 {
     /// <summary>The <see cref="Type"/> of the data model.</summary>
     private readonly Type _dataModelType;

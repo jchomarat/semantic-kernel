@@ -94,7 +94,7 @@ public static class VolatileVectorStoreExtensions
 
     #region private
     /// <summary>Model class used when storing a <see cref="VolatileVectorStoreRecordCollection{TKey, TRecord}" />.</summary>
-    private sealed class VolatileRecordCollection<TKey, TRecord>(string name, IDictionary<TKey, TRecord> records)
+    private class VolatileRecordCollection<TKey, TRecord>(string name, IDictionary<TKey, TRecord> records)
         where TKey : notnull
     {
         public string Name { get; init; } = name;

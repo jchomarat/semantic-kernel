@@ -15,7 +15,7 @@ namespace Microsoft.SemanticKernel.Data;
 /// service filter the search results.
 /// </remarks>
 [Experimental("SKEXP0001")]
-public sealed class TextSearchFilter
+public class TextSearchFilter
 {
     /// <summary>
     /// The clauses to apply to the <see cref="TextSearchFilter" />

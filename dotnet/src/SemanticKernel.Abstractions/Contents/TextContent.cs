@@ -10,7 +10,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents text content return from a <see cref="ITextGenerationService" /> service.
 /// </summary>
-public sealed class TextContent : KernelContent
+public class TextContent : KernelContent
 {
     /// <summary>
     /// The text content.

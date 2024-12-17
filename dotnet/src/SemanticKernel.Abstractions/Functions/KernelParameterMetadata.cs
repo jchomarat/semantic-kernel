@@ -9,7 +9,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Provides read-only metadata for a <see cref="KernelFunction"/> parameter.
 /// </summary>
-public sealed class KernelParameterMetadata
+public class KernelParameterMetadata
 {
     /// <summary>The name of the parameter.</summary>
     private string _name = string.Empty;
@@ -201,7 +201,7 @@ public sealed class KernelParameterMetadata
     }
 
     /// <summary>A wrapper for a <see cref="KernelJsonSchema"/> and whether it was inferred or set explicitly by the user.</summary>
-    internal sealed class InitializedSchema
+    internal class InitializedSchema
     {
         /// <summary>true if the <see cref="Schema"/> was inferred; false if it was set explicitly by the user.</summary>
         public bool Inferred { get; set; }

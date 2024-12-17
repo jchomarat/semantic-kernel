@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents a manufactured streaming content from a single function result.
 /// </summary>
-public sealed class StreamingMethodContent : StreamingKernelContent
+public class StreamingMethodContent : StreamingKernelContent
 {
     /// <summary>
     /// Gets the result of the function invocation.

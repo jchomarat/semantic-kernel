@@ -7,7 +7,7 @@ namespace Microsoft.SemanticKernel;
 /// <summary>
 /// Represents the options for a function choice behavior.
 /// </summary>
-public sealed class FunctionChoiceBehaviorOptions
+public class FunctionChoiceBehaviorOptions
 {
     /// <summary>
     /// Gets or sets whether AI model should prefer parallel function calls over sequential ones.

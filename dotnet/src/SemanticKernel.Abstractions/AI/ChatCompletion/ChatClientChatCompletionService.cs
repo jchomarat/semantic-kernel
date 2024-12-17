@@ -17,7 +17,7 @@ using Microsoft.SemanticKernel.Services;
 namespace Microsoft.SemanticKernel.ChatCompletion;
 
 /// <summary>Provides an implementation of <see cref="IChatCompletionService"/> around an <see cref="IChatClient"/>.</summary>
-internal sealed class ChatClientChatCompletionService : IChatCompletionService
+internal class ChatClientChatCompletionService : IChatCompletionService
 {
     /// <summary>The wrapped <see cref="IChatClient"/>.</summary>
     private readonly IChatClient _chatClient;

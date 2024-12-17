@@ -30,7 +30,7 @@ namespace Microsoft.SemanticKernel.TemplateEngine;
 /// [letter]         ::= "a" | "b" ... | "z" | "A" | "B" ... | "Z"
 /// [digit]          ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 /// </summary>
-internal sealed class TemplateTokenizer(ILoggerFactory? loggerFactory = null)
+internal class TemplateTokenizer(ILoggerFactory? loggerFactory = null)
 {
     /// <summary>
     /// Extract blocks from the given text

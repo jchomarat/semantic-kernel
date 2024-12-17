@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel;
 /// Provides a <see cref="KernelEventArgs"/> used in events raised just before a prompt is rendered.
 /// </summary>
 [Obsolete("Events are deprecated in favor of filters. Example in dotnet/samples/GettingStarted/Step7_Observability.cs of Semantic Kernel repository.")]
-public sealed class PromptRenderingEventArgs : KernelEventArgs
+public class PromptRenderingEventArgs : KernelEventArgs
 {
     /// <summary>
     /// Initializes a new instance of the <see cref="PromptRenderingEventArgs"/> class.

@@ -11,7 +11,7 @@ namespace Microsoft.SemanticKernel;
 /// The model may use the provided function in the response it generates. E.g. the model may describe which functions it would call and with what parameter values.
 /// This response is useful if the user should first validate what functions the model will use.
 /// </summary>
-public sealed class NoneFunctionChoiceBehavior : FunctionChoiceBehavior
+public class NoneFunctionChoiceBehavior : FunctionChoiceBehavior
 {
     /// <summary>
     /// Initializes a new instance of the <see cref="NoneFunctionChoiceBehavior"/> class.

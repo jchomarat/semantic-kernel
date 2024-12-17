@@ -32,7 +32,7 @@ namespace Microsoft.SemanticKernel.TemplateEngine;
 /// [letter]         ::= "a" | "b" ... | "z" | "A" | "B" ... | "Z"
 /// [digit]          ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 /// </summary>
-internal sealed class CodeTokenizer(ILoggerFactory? loggerFactory = null)
+internal class CodeTokenizer(ILoggerFactory? loggerFactory = null)
 {
     private enum TokenTypes
     {
